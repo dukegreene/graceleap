@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+grace_image = "#{__dir__}/gracehopper.png"
+sparkle_image = "#{__dir__}/lirpaloof.png"
+imageleap = "#{__dir__}/imageleap"
+
+system("#{imageleap} -i #{grace_image} -p #{sparkle_image}")
